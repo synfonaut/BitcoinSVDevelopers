@@ -1,24 +1,28 @@
 <? require_once(__DIR__ . "/config.php") ?><!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Bitcoin SV Developers - BSV Developers</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Office Hours and consulting to help build your next Bitcoin SV project">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bitcoin SV Developers - BSV Developers</title>
+    <meta name="bitcoin-address" content="16WxmN31BhNikamWhxwGQ5Ts21effPCVPh">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="@synfonaut, @bitcoinsvdevs">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Office Hours and consulting to help build your next Bitcoin SV project">
+    <meta name="keywords" content="BitcoinSV, BSV, office hours, consulting, Bitcoin SV project">
 
-  <meta property="og:description" content="Office Hours and consulting to help build your next Bitcoin SV project">
-  <meta property="og:image" content="https://bitcoinsvdevelopers.com/static/img/large_banner.png" />
-  <meta property="og:title" content="Bitcoin SV Developers" />
+    <meta property="og:description" content="Office Hours and consulting to help build your next Bitcoin SV project">
+    <meta property="og:image" content="https://bitcoinsvdevelopers.com/static/img/large_banner.png" />
+    <meta property="og:title" content="Bitcoin SV Developers" />
 
-  <meta name="twitter:site" content="@bitcoinsvdevs" />
-  <meta name="twitter:title" content="Bitcoin SV Developers" />
-  <meta name="twitter:description" content="Office Hours and consulting to help build your next Bitcoin SV project">
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="https://bitcoinsvdevelopers.com/static/img/large_banner.png" />
+    <meta name="twitter:site" content="@bitcoinsvdevs" />
+    <meta name="twitter:title" content="Bitcoin SV Developers" />
+    <meta name="twitter:description" content="Office Hours and consulting to help build your next Bitcoin SV project">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://bitcoinsvdevelopers.com/static/img/large_banner.png" />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
-  <link rel="stylesheet" href="/static/css/main.css?cb=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
+    <link rel="stylesheet" href="static/css/main.css?cb=1" />
 </head>
 <body>
     <div id="app">
@@ -28,7 +32,7 @@
             <div class="container">
               <div class="columns">
                 <div class="column is-4">
-                  <a class="logo" href="/" title="Bitcoin SV Developers"><img alt="Bitcoin SV Developers" src="/static/img/bitcoin-sv-developers-white-logo-shadow.png" /></a>
+                  <a class="logo" href="/" title="Bitcoin SV Developers"><img alt="Bitcoin SV Developers" src="static/img/bitcoin-sv-developers-white-logo-shadow.png" /></a>
                 </div>
                 <div class="column is-8 is-hidden-mobile">
                   <div class="navigation">
@@ -82,7 +86,7 @@
                     <p>Bitcoin SV is ready for what you want to build&mdash;the only limit is your imagination.</p>
                   </div>
                   <div class="column is-5 has-text-centered bitcoin-logo-wrapper">
-                    <img src="/static/img/bsv-logo-medium.png" class="is-image bitcoinsv-logo" alt="Bitcoin SV" />
+                    <img src="static/img/bsv-logo-medium.png" class="is-image bitcoinsv-logo" alt="Bitcoin SV" />
                   </div>
                 </div>
 
@@ -113,40 +117,40 @@
                       <div class="column content">
                           <ul class="list is-shadowless fa-ul">
 
-                            <li><a href="https://www.agora.icu">AGORA</a> — your homepage on the Metanet</li>
-                            <li><a href="https://streamanity.com">Steamanity</a> — get paid for publishing videos</li>
-                            <li><a href="https://twetch.app">Twetch</a> — social network</li>
-                            <li><a href="https://dir.sv">Open Directory</a> — get paid to organize links</li>
-                            <li><a href="https://memo.sv">Memo</a> — social network</li>
-                            <li><a href="https://www.yours.org">Yours</a> — earn money from quality content</li>
-                            <li><a href="https://bitstagram.bitdb.network">Bitstagram</a> — photo sharing</li>
+                            <li><a href="https://www.agora.icu" target="_blank">AGORA</a> — your homepage on the Metanet</li>
+                            <li><a href="https://streamanity.com" target="_blank">Steamanity</a> — get paid for publishing videos</li>
+                            <li><a href="https://twetch.app" target="_blank">Twetch</a> — social network</li>
+                            <li><a href="https://dir.sv" target="_blank">Open Directory</a> — get paid to organize links</li>
+                            <li><a href="https://memo.sv" target="_blank">Memo</a> — social network</li>
+                            <li><a href="https://www.yours.org" target="_blank">Yours</a> — earn money from quality content</li>
+                            <li><a href="https://bitstagram.bitdb.network" target="_blank">Bitstagram</a> — photo sharing</li>
                           </ul>
                       </div>
 
                       <div class="column content">
                           <ul class="list is-shadowless fa-ul">
-                            <li><a href="https://tonicpow.com">TonicPow</a> — peer to peer advertisements</li>
-                            <li><a href="https://uptimesv.com">UptimeSV</a> — crowdsourced uptime monitoring</li>
-                            <li><a href="https://www.audiob.app">audioB</a> — platform for musicians</li>
-                            <li><a href="https://oyo.cash">Oyo.cash</a> — search engine</li>
-                            <li><a href="https://preserve.bitpaste.app">Preserve</a> — deploy on-chain websites</li>
+                            <li><a href="https://tonicpow.com/?affiliate=$synfonaut" target="_blank">TonicPow</a> — peer to peer advertisements</li>
+                            <li><a href="https://uptimesv.com" target="_blank">UptimeSV</a> — crowdsourced uptime monitoring</li>
+                            <li><a href="https://www.audiob.app" target="_blank">audioB</a> — platform for musicians</li>
+                            <li><a href="https://oyo.cash" target="_blank">Oyo.cash</a> — search engine</li>
+                            <li><a href="https://preserve.bitpaste.app" target="_blank">Preserve</a> — deploy on-chain websites</li>
 
-                            <li><a href="https://weathersv.app">WeatherSV</a> — on-chain weather data</li>
-                            <li><a href="https://etched.page">etched</a> — archive a web page forever</li>
-                            <li><a href="https://bottle.bitdb.network">Bottle</a> — Bitcoin Browser</li>
+                            <li><a href="https://weathersv.app" target="_blank">WeatherSV</a> — on-chain weather data</li>
+                            <li><a href="https://etched.page" target="_blank">etched</a> — archive a web page forever</li>
+                            <li><a href="https://bottle.bitdb.network" target="_blank">Bottle</a> — Bitcoin Browser</li>
 
                           </ul>
                       </div>
 
                       <div class="column content">
                           <ul class="list is-shadowless fa-ul">
-                            <li><a href="https://www.moneybutton.com/">MoneyButton</a> — simple payment system</li>
-                            <li><a href="https://handcash.io">HandCash</a> — easy to use wallet</li>
-                            <li><a href="https://www.relayx.io/">RelayX</a> — superwallet</li>
-                            <li><a href="https://tokenized.com">Tokenized</a> — issue, manage and trade digital tokens</li>
-                            <li><a href="http://bitcointoken.com/">BitcoinToken</a> — smart contracts</li>
-                            <li><a href="https://legallychained.com">Legally Chained</a> — verified identity and document management</li>
-                            <li>See more Bitcoin SV projects at <a href="https://www.bsvdevs.com">BSV/DEVS</a></li>
+                            <li><a href="https://www.moneybutton.com/" target="_blank">MoneyButton</a> — simple payment system</li>
+                            <li><a href="https://handcash.io" target="_blank">HandCash</a> — easy to use wallet</li>
+                            <li><a href="https://www.relayx.io/" target="_blank">RelayX</a> — superwallet</li>
+                            <li><a href="https://tokenized.com" target="_blank">Tokenized</a> — issue, manage and trade digital tokens</li>
+                            <li><a href="http://bitcointoken.com/" target="_blank">BitcoinToken</a> — smart contracts</li>
+                            <li><a href="https://legallychained.com" target="_blank">Legally Chained</a> — verified identity and document management</li>
+                            <li>See more Bitcoin SV projects at <a href="https://www.bsvdevs.com" target="_blank">BSV/DEVS</a></li>
                           </ul>
                       </div>
 
@@ -174,20 +178,20 @@
               <div class="column is-10">
                 <div class="columns reverse-column-order">
                   <div class="column atlantis is-5 has-text-centered">
-                    <a class="noborder" href="https://bitdb.network/atlantis"><img src="/static/img/atlantis.jpeg" class="is-image" alt="Atlantis Slack for developers" /></a>
-                    <div class="blurb is-size-7">Join the <a href="https://bitdb.network/atlantis">Atlantis Slack</a> to talk with other people building on Bitcoin&nbsp;SV, say hello in #officehours</div>
+                    <a class="noborder" href="https://bitdb.network/atlantis" target="_blank"><img src="static/img/atlantis.jpeg" class="is-image" alt="Atlantis Slack for developers" /></a>
+                    <div class="blurb is-size-7">Join the <a href="https://bitdb.network/atlantis" target="_blank">Atlantis Slack</a> to talk with other people building on Bitcoin&nbsp;SV, say hello in #officehours</div>
                   </div>
                   <div class="column is-7">
                     <h2 class="title"><span class="icon-wrapper"><i class="far fa-book-open"></i></span> Learn how to build apps on Bitcoin&nbsp;SV</h2>
                     <p>Whether you're an existing programmer or looking to learn, there are a lot of ways to get started with Bitcoin SV development.</p>
 
-                    <p>Consider reviewing the tools from <a href="https://twitter.com/_unwriter">unwriter</a> like <a href="https://neon.planaria.network/">Neon Planaria</a>, <a href="https://bitdb.network/">BitDB</a> and <a href="https://e.planaria.network/">Eventchain</a> that make it easy to read data from the blockchain. There are great writeups available at <a href="https://docs.planaria.network/#/tutorials">Tutorials and Articles</a>.</p>
+                    <p>Consider reviewing the tools from <a href="https://twitter.com/_unwriter" target="_blank">unwriter</a> like <a href="https://neon.planaria.network/" target="_blank">Neon Planaria</a>, <a href="https://bitdb.network/">BitDB</a> and <a href="https://e.planaria.network/" target="_blank">Eventchain</a> that make it easy to read data from the blockchain. There are great writeups available at <a href="https://docs.planaria.network/#/tutorials" target="_blank">Tutorials and Articles</a>.</p>
 
-                    <p>Also, tools like <a href="https://www.moneybutton.com/">MoneyButton</a>, <a href="https://github.com/bitsent/BitBtn">BitBtn</a> and <a href="https://github.com/libitx/proxypay">Proxypay</a> are great for quickly sending payments and writing data to the blockchain.</p>
+                    <p>Also, tools like <a href="https://www.moneybutton.com/" target="_blank">MoneyButton</a>, <a href="https://github.com/bitsent/BitBtn" target="_blank">BitBtn</a> and <a href="https://github.com/libitx/proxypay" target="_blank">Proxypay</a> are great for quickly sending payments and writing data to the blockchain.</p>
 
-                  <p>For examples of real world applications, check out the source code of <a href="https://github.com/synfonaut/Open-Directory">Open Directory</a> and <a href="https://github.com/synfonaut/immortal">ImmortalSV</a>. For professional infrastructure services try <a href="https://www.mattercloud.net">MatterCloud</a>.</p>
+                  <p>For examples of real world applications, check out the source code of <a href="https://github.com/synfonaut/Open-Directory" target="_blank">Open Directory</a> and <a href="https://github.com/synfonaut/immortal">ImmortalSV</a>. For professional infrastructure services try <a href="https://www.mattercloud.net" target="_blank">MatterCloud</a>.</p>
 
-                  <p>And if you're completely new, consider taking a JavaScript course (like <a href="https://javascript30.com">Javascript 30</a>, <a href="https://egghead.io">Egghead</a> or <a href="http://eloquentjavascript.net/">Eloquent Javascript</a>) or learning HTML and CSS. Also remember that if you can do design, sales, marketing or customer development—many developers will want to team up with you.</p>
+                  <p>And if you're completely new, consider taking a JavaScript course (like <a href="https://javascript30.com" target="_blank">Javascript 30</a>, <a href="https://egghead.io" target="_blank">Egghead</a> or <a href="http://eloquentjavascript.net/">Eloquent Javascript</a>) or learning HTML and CSS. Also remember that if you can do design, sales, marketing or customer development—many developers will want to team up with you.</p>
 
                   <br />
                   <br />
@@ -235,10 +239,10 @@
                     foreach($officeHours as $key => $person) { ?>
                         <div class="column is-4-desktop is-6-tablet has-text-centered">
                           <div class="profile">
-                            <a href="<?= $person["url"] ?>" class="noborder">
+                            <a href="<?= $person["url"] ?>" target="_blank" class="noborder">
                                 <img src="<?= $person["img"] ?>" alt="<?= $person["name"] ?>" />
                             </a>
-                            <h3><a class="noborder" href="<?= $person["url"] ?>"><?= $person["name"] ?></a></h3>
+                            <h3><a class="noborder" href="<?= $person["url"] ?>" target="_blank"><?= $person["name"] ?></a></h3>
                             <p class="description"><?= $person["description"] ?></a></p>
                             <div class="tags">
                               <?php foreach ($person["tags"] as $tag) { ?>
@@ -258,17 +262,17 @@
 
                     <div class="column is-4-desktop is-6-tablet has-text-centered">
                       <div class="profile">
-                        <a href="mailto:synfonaut@protonmail.com?subject=Host Office Hours" class="avatar noborder">
+                        <a href="mailto:synfonaut@protonmail.com?subject=Host Office Hours" target="_blank" class="avatar noborder">
                           <span class="icon-wrapper"><i class="fas fa-5x fa-user"></i></span>
                         </a>
-                        <h3><a class="noborder" href="mailto:synfonaut@protonmail.com?subject=Host Office Hours">Your Name Here</a></h3>
+                        <h3><a class="noborder" href="mailto:synfonaut@protonmail.com?subject=Host Office Hours" target="_blank">Your Name Here</a></h3>
                         <div class="wording">
                           <p>Interested in hosting your own Office Hours?</p>
                           <p>Help other developers level up their projects by providing advice</p>
                         </div>
 
                         <div>
-                          <a href="mailto:synfonaut@protonmail.com?subject=Host Office Hours" class="button">Host Office Hours</a>
+                          <a href="mailto:synfonaut@protonmail.com?subject=Host Office Hours" target="_blank" class="button">Host Office Hours</a>
                         </div>
                       </div>
                     </div>
@@ -314,10 +318,10 @@
                         <? if (!$person["consulting"]) { continue; } ?>
                         <div class="column is-4-desktop is-6-tablet has-text-centered">
                           <div class="profile">
-                            <a href="<?= $person["url"] ?>" class="noborder">
+                            <a href="<?= $person["url"] ?>" target="_blank" class="noborder">
                                 <img src="<?= $person["img"] ?>" alt="<?= $person["name"] ?>" />
                             </a>
-                            <h3><a class="noborder" href="<?= $person["url"] ?>"><?= $person["name"] ?></a></h3>
+                            <h3><a class="noborder" href="<?= $person["url"] ?>" target="_blank"><?= $person["name"] ?></a></h3>
                             <p class="description"><?= $person["description"] ?></a></p>
                             <div class="tags">
                               <?php foreach ($person["tags"] as $tag) { ?>
@@ -337,16 +341,16 @@
 
                     <div class="column is-4-desktop is-6-tablet has-text-centered">
                       <div class="profile">
-                        <a href="mailto:synfonaut@protonmail.com?subject=Offer Consulting" class="avatar noborder">
+                        <a href="mailto:synfonaut@protonmail.com?subject=Offer Consulting" target="_blank" class="avatar noborder">
                           <span class="icon-wrapper"><i class="fas fa-5x fa-user"></i></span>
                         </a>
-                        <h3><a class="noborder" href="mailto:synfonaut@protonmail.com?subject=Offer Consulting">Your Name Here</a></h3>
+                        <h3><a class="noborder" href="mailto:synfonaut@protonmail.com?subject=Offer Consulting" target="_blank">Your Name Here</a></h3>
                         <div class="wording">
                           <p>Interested in offering Bitcoin SV consulting?</p>
                           <p>If you're a developer, designer, strategist or marketer—get in touch!</p>
                         </div>
                         <div>
-                          <a href="mailto:synfonaut@protonmail.com?subject=Offer Consulting" class="button">Offer Consulting</a>
+                          <a href="mailto:synfonaut@protonmail.com?subject=Offer Consulting" target="_blank" class="button">Offer Consulting</a>
                         </div>
                       </div>
                     </div>
@@ -388,7 +392,7 @@
 
                     <br /><br />
                     <br /><br />
-                    <p>You should follow <a href="https://twitter.com/bitcoinsvdevs">@BitcoinSVDevs</a> on Twitter!</p>
+                    <p>You should follow <a href="https://twitter.com/bitcoinsvdevs" target="_blank">@BitcoinSVDevs</a> on Twitter!</p>
                   </div>
                 </div>
               </div>
@@ -402,8 +406,8 @@
             <div class="container">
               <div class="columns">
                 <div class="column is-12">
-                  <div><img src="/static/img/bitcoin-sv-developers-white-logo-shadow.png" alt="BitcoinSV Developers" /></div>
-                  <div class="created-by">created by <a class="noborder" href="https://twitter.com/synfonaut" title="@synfonaut">@synfonaut</a></div>
+                  <div><img src="static/img/bitcoin-sv-developers-white-logo-shadow.png" alt="BitcoinSV Developers" /></div>
+                  <div class="created-by">created by <a class="noborder" href="https://twitter.com/synfonaut" target="_blank" title="@synfonaut">@synfonaut</a></div>
                 </div>
               </div>
             </div>
@@ -509,9 +513,23 @@
     </div>
     <? } ?>
 
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Bitcoin SV Developers",
+          "alternateName": "BitcoinSV Devs",
+          "url": "https://bitcoinsvdevelopers.com",
+          "logo": "https://bitcoinsvdevelopers.com/img/bitcoin-sv-developers-white-logo-shadow.png",
+          "sameAs": [
+            "https://twitter.com/bitcoinsvdevs",
+            "https://bitcoinsvdevelopers.com"
+          ]
+        }
+    </script>
     <script src="https://kit.fontawesome.com/408258ca5b.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145148446-1"></script>
-    <script src="/static/js/app.js"></script>
+    <script src="static/js/app.js"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
