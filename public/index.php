@@ -80,7 +80,7 @@
 
                       <li class="list-item">
                         <span class="fa-li"><i class="fas fa-arrow-circle-right"></i></span>
-                        <strong>Micro-transactions</strong> enable entirely new classes of business models
+                        <strong>Microtransactions</strong> enable entirely new classes of business models
                       </li>
                     </ul>
                     <p>Bitcoin SV is ready for what you want to build&mdash;the only limit is your imagination.</p>
@@ -530,10 +530,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145148446-1"></script>
     <script src="static/js/app.js"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-145148446-1');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-145148446-1');
     </script>
 </body>
 </html>
