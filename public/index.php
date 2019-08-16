@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Bitcoin SV Developers - BSV Developers</title>
+    <title>Bitcoin SV Developers - Build your next Bitcoin SV project!</title>
     <meta name="bitcoin-address" content="16WxmN31BhNikamWhxwGQ5Ts21effPCVPh">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="@synfonaut, @bitcoinsvdevs">
@@ -226,7 +226,7 @@
 
                   <div class="columns is-multiline profiles">
 
-                   <?php
+                   <?
                     $officeHours = array();
                     foreach($people as $key => $person) {
                         if (!$person["officehours"]) {
@@ -245,9 +245,9 @@
                             <h3><a class="noborder" href="<?= $person["url"] ?>" target="_blank"><?= $person["name"] ?></a></h3>
                             <p class="description"><?= $person["description"] ?></a></p>
                             <div class="tags">
-                              <?php foreach ($person["tags"] as $tag) { ?>
+                              <? foreach ($person["tags"] as $tag) { ?>
                                   <div class="tag"><?= $tag ?></div>
-                              <?php } ?>
+                              <? } ?>
                             </div>
                             <div>
                                 <? if (isset($person["convertwithurl"])) { ?>
@@ -258,7 +258,7 @@
                             </div>
                           </div>
                         </div>
-                    <?php } ?>
+                    <? } ?>
 
                     <div class="column is-4-desktop is-6-tablet has-text-centered">
                       <div class="profile">
@@ -304,7 +304,7 @@
 
                   <div class="columns is-multiline profiles">
 
-                    <?php
+                    <?
                     $consulting = array();
                     foreach($people as $key => $person) {
                         if (!$person["consulting"]) {
@@ -324,9 +324,9 @@
                             <h3><a class="noborder" href="<?= $person["url"] ?>" target="_blank"><?= $person["name"] ?></a></h3>
                             <p class="description"><?= $person["description"] ?></a></p>
                             <div class="tags">
-                              <?php foreach ($person["tags"] as $tag) { ?>
+                              <? foreach ($person["tags"] as $tag) { ?>
                                   <div class="tag"><?= $tag ?></div>
-                              <?php } ?>
+                              <? } ?>
                             </div>
                             <div>
                                 <? if (isset($person["convertwithurl"])) { ?>
@@ -337,7 +337,7 @@
                             </div>
                           </div>
                         </div>
-                    <?php } ?>
+                    <? } ?>
 
                     <div class="column is-4-desktop is-6-tablet has-text-centered">
                       <div class="profile">
@@ -417,7 +417,7 @@
 
     </div>
 
-    <?php
+    <?
     foreach($people as $key => $person) {
       if (!$person["officehours"]) {
           continue;
@@ -463,9 +463,8 @@
             </form>
         </div>
     </div>
-    <? } ?>
+    <? }
 
-    <?php
     foreach($people as $key => $person) {
         if (!$person["consulting"]) {
             continue;
