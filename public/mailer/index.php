@@ -8,8 +8,8 @@ $userEmail = $_POST["email"];
 $userMessage = trim($_POST["message"]);
 $formattedMessage = nl2br($userMessage);
 
-$isOfficeHours = $_POST["officehours"] == 1;
-$isConsulting = $_POST["consulting"] == 1;
+$isOfficeHours = @$_POST["officehours"] == 1;
+$isConsulting = @$_POST["consulting"] == 1;
 
 if (!isset($people[$name])) {
     die("invalid person");
