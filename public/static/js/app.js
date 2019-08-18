@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Modals
 
-    var rootEl = document.documentElement;
-    var $modals = getAll('.modal');
-    var $modalButtons = getAll('.modal-button');
-    var $modalCloses = getAll('.modal-background, .modal-close, .modal-card-head .delete');
+    let rootEl = document.documentElement;
+    let $modals = getAll('.modal');
+    let $modalButtons = getAll('.modal-button');
+    let $modalCloses = getAll('.modal-background, .modal-close, .modal-card-head .delete');
 
     if ($modalButtons.length > 0) {
         $modalButtons.forEach(function ($el) {
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     document.addEventListener('keydown', function (event) {
-        var e = event || window.event;
+        let e = event || window.event;
         if (e.keyCode === 27) {
             closeModals();
         }
