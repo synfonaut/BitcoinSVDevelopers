@@ -1,5 +1,4 @@
 <? require_once(__DIR__ . "/../../header.php"); ?>
-
       <div class="section">
         <div class="container">
           <div class="columns">
@@ -20,5 +19,4 @@
         </div>
 
       </div>
-
 <? require_once(__DIR__ . "/../../footer.php"); ?>
