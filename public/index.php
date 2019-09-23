@@ -97,6 +97,7 @@
                         <li><a href="https://memo.sv" target="_blank">Memo</a> — social network</li>
                         <li><a href="https://www.yours.org" target="_blank">Yours</a> — earn money from quality content</li>
                         <li><a href="https://bitstagram.bitdb.network" target="_blank">Bitstagram</a> — photo sharing</li>
+                        <li><a href="https://legallychained.com" target="_blank">Legally Chained</a> — verified identity and document management</li>
                       </ul>
                   </div>
 
@@ -123,7 +124,6 @@
                         <li><a href="https://www.relayx.io/" target="_blank">RelayX</a> — superwallet</li>
                         <li><a href="https://tokenized.com" target="_blank">Tokenized</a> — issue, manage and trade digital tokens</li>
                         <li><a href="http://bitcointoken.com/" target="_blank">BitcoinToken</a> — smart contracts</li>
-                        <li><a href="https://legallychained.com" target="_blank">Legally Chained</a> — verified identity and document management</li>
                         <li>See more Bitcoin SV projects at <a href="https://www.bsvdevs.com" target="_blank">BSV/DEVS</a></li>
                       </ul>
                   </div>
