@@ -119,6 +119,7 @@
                       <ul class="list is-shadowless fa-ul">
                         <li><a href="https://www.moneybutton.com/" target="_blank">MoneyButton</a> — simple payment system</li>
                         <li><a href="https://handcash.io" target="_blank">HandCash</a> — easy to use wallet</li>
+                        <li><a href="https://www.centbee.com" target="_blank">Centbee</a> — user friendly wallet</li>
                         <li><a href="https://www.relayx.io/" target="_blank">RelayX</a> — superwallet</li>
                         <li><a href="https://tokenized.com" target="_blank">Tokenized</a> — issue, manage and trade digital tokens</li>
                         <li><a href="http://bitcointoken.com/" target="_blank">BitcoinToken</a> — smart contracts</li>
