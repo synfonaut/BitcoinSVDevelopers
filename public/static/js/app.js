@@ -49,3 +49,29 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 });
+
+function loadModal(link) {
+    console.log("loading modal for", link);
+
+    if (!link || !link.dataset || !link.dataset.target) {
+        console.log("error: couldn't find modal for link", link);
+        return false;
+    }
+
+    const modal = document.getElementById(link.dataset.target);
+    if (!modal) {
+        console.log("error: couldn't find modal for link", link);
+        return false;
+    }
+
+    const wrapper = modal.querySelector(".recaptcha-wrapper")
+    if (!wrapper) {
+        console.log("error: couldn't find wrapper for modal", modal);
+        return false;
+    }
+
+    const id = grecaptcha.render(wrapper, { "sitekey" : "6Lcsl7sUAAAAAGp0LZHraq9XY9RTQDSJK-ZwKJWa" });
+    console.log("rendered recaptcha", id);
+
+    return true;
+}

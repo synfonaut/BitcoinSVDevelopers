@@ -227,7 +227,7 @@
                             <? if (isset($person["convertwithurl"])) { ?>
                                 <a class="button" href="<?= $person["url"] ?>">Book Office Hours</a>
                             <? } else { ?>
-                                <a class="button modal-button" data-target="modal-office-hours-<?= $key ?>">Book Office Hours</a>
+                                <a class="button modal-button" data-target="modal-office-hours-<?= $key ?>" href="javascript:void(0)" onclick="loadModal(this)">Book Office Hours</a>
                             <? } ?>
                         </div>
                       </div>
@@ -306,7 +306,7 @@
                             <? if (isset($person["convertwithurl"])) { ?>
                                 <a class="button" href="<?= $person["url"] ?>">Book Consulting</a>
                             <? } else { ?>
-                                <a class="button modal-button" data-target="modal-consulting-<?= $key ?>">Book Consulting</a>
+                                <a class="button modal-button" data-target="modal-consulting-<?= $key ?>" href="javascript:void(0)" onclick="loadModal(this);">Book Consulting</a>
                             <? } ?>
                         </div>
                       </div>
@@ -433,7 +433,10 @@ foreach($people as $key => $person) {
                   </div>
               </section>
               <footer class="modal-card-foot">
-                <input type="submit" class="button is-success" value="Send Message" />
+                <div class="footer-inner">
+                    <div class="recaptcha-wrapper"></div>
+                    <input type="submit" class="button is-success" value="Send Message" />
+                </div>
               </footer>
         </form>
     </div>
@@ -480,10 +483,14 @@ foreach($people as $key => $person) {
                   </div>
               </section>
               <footer class="modal-card-foot">
-                <input type="submit" class="button is-success" value="Send Message" />
+                <div class="footer-inner">
+                    <div class="recaptcha-wrapper"></div>
+                    <input type="submit" class="button is-success" value="Send Message" />
+                </div>
               </footer>
         </form>
     </div>
 </div>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <? } ?>
 <? require_once(__DIR__ . "/footer.php") ?>

@@ -274,6 +274,14 @@ header a {
     width: 100%;
 }
 
+.footer-inner {
+    display: inline-block;
+}
+
+.recaptcha-wrapper {
+    margin-bottom: 8px;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 320px){
     #app header h1 {
         font-size: 38px;

@@ -22,7 +22,7 @@
     <meta name="twitter:image" content="https://bitcoinsvdevelopers.com/static/img/large_banner.png" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
-    <link rel="stylesheet" href="static/css/main.css?cb=1" />
+    <link rel="stylesheet" href="/static/css/main.css?cb=1" />
 </head>
 <body>
     <div id="app">
