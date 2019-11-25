@@ -112,6 +112,7 @@
                         <li><a href="https://weathersv.app" target="_blank">WeatherSV</a> — on-chain weather data</li>
                         <li><a href="https://etched.page" target="_blank">etched</a> — archive a web page forever</li>
                         <li><a href="https://bottle.bitdb.network" target="_blank">Bottle</a> — Bitcoin Browser</li>
+                        <li><a href="https://peergame.com" target="_blank">Peergame</a> — games</li>
 
                       </ul>
                   </div>
@@ -120,10 +121,11 @@
                       <ul class="list is-shadowless fa-ul">
                         <li><a href="https://www.moneybutton.com/" target="_blank">MoneyButton</a> — simple payment system</li>
                         <li><a href="https://handcash.io" target="_blank">HandCash</a> — easy to use wallet</li>
+                        <li><a href="https://simply.cash/" target="_blank">Simply Cash</a> — fast wallet</li>
                         <li><a href="https://www.centbee.com" target="_blank">Centbee</a> — user friendly wallet</li>
                         <li><a href="https://www.relayx.io/" target="_blank">RelayX</a> — superwallet</li>
                         <li><a href="https://tokenized.com" target="_blank">Tokenized</a> — issue, manage and trade digital tokens</li>
-                        <li><a href="http://bitcointoken.com/" target="_blank">BitcoinToken</a> — smart contracts</li>
+                        <li><a href="https://www.codugh.com/" target="_blank">Codugh</a> — monetize APIs</li>
                         <li>See more Bitcoin SV projects at <a href="https://www.bsvdevs.com" target="_blank">BSV/DEVS</a></li>
                       </ul>
                   </div>
