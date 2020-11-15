@@ -91,7 +91,7 @@
                       <ul class="list is-shadowless fa-ul">
 
                         <li><a href="https://www.agora.icu" target="_blank">AGORA</a> — your homepage on the Metanet</li>
-                        <li><a href="https://streamanity.com" target="_blank">Steamanity</a> — get paid for publishing videos</li>
+                        <li><a href="https://bit.sv" target="_blank">Bit.sv</a> — earn money from your audience</li>
                         <li><a href="https://twetch.app" target="_blank">Twetch</a> — social network</li>
                         <li><a href="https://dir.sv" target="_blank">Open Directory</a> — get paid to organize links</li>
                         <li><a href="https://memo.sv" target="_blank">Memo</a> — social network</li>
@@ -123,7 +123,7 @@
                         <li><a href="https://handcash.io" target="_blank">HandCash</a> — easy to use wallet</li>
                         <li><a href="https://simply.cash/" target="_blank">Simply Cash</a> — fast wallet</li>
                         <li><a href="https://www.centbee.com" target="_blank">Centbee</a> — user friendly wallet</li>
-                        <li><a href="https://www.relayx.io/" target="_blank">RelayX</a> — superwallet</li>
+                        <li><a href="https://www.dotwallet.com/en/" target="_blank">DotWallet</a> — digital asset wallet</li>
                         <li><a href="https://tokenized.com" target="_blank">Tokenized</a> — issue, manage and trade digital tokens</li>
                         <li><a href="https://www.codugh.com/" target="_blank">Codugh</a> — monetize APIs</li>
                         <li>See more Bitcoin SV projects at <a href="https://www.bsvdevs.com" target="_blank">BSV/DEVS</a></li>
